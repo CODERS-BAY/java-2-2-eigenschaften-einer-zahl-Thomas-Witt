@@ -1,5 +1,6 @@
 package com.codersbay.witt;
 
+
 import java.util.Scanner;
 
 public class Main {
