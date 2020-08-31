@@ -7,29 +7,32 @@ public class CharacteristicOfANumber {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
 
-        if (number%10==0)
+        if (number % 10 == 0) {
             System.out.println("The number is a round number.");
-        else
+        } else {
             System.out.println("The number is not a round number.");
+        }
 
-        if (number%2==0)
+        if (number % 2 == 0) {
             System.out.println("The number is even.");
-        else
+        } else {
             System.out.println("The number is odd.");
-
-        if (number == 5)
+        }
+        if (number == 5) {
             System.out.println("You have chosen my favourite number! You are awesome!");
-        else
+        } else {
             System.out.println("Why didn't you choose my favourite number?");
+        }
 
-        if (number / 10 == 0)
-                System.out.println("The Number has one digit.");
-        else if (number / 100 == 0)
+        if (number / 10 == 0) {
+            System.out.println("The Number has one digit.");
+        } else if (number / 100 == 0) {
             System.out.println("The number has two digits.");
-        else if (number / 1000 == 0)
+        } else if (number / 1000 == 0) {
             System.out.println("The number has three digits.");
-        else
+        } else {
             System.out.println("The number has more than tree digits");
+        }
 
     }
 }
